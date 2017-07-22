@@ -1,17 +1,18 @@
 {
-  "name": "template-webpack",
+  "name": "configuration",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --env development",
     "build": "webpack --env production",
-    "server": "node server.js"
+    "server": "static public",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^7.1.1",
+    "autoprefixer": "^7.1.2",
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
     "babel-polyfill": "^6.23.0",
@@ -20,11 +21,12 @@
     "babel-preset-react": "^6.24.1",
     "classnames": "^2.2.5",
     "css-loader": "^0.28.4",
-    "express": "^4.15.3",
-    "extract-text-webpack-plugin": "^2.1.2",
+    "extract-text-webpack-plugin": "^3.0.0",
     "file": "^0.2.2",
     "file-loader": "^0.11.2",
     "immutable": "^3.8.1",
+    "loglevel": "^1.4.1",
+    "node-static": "^0.7.9",
     "path": "^0.12.7",
     "postcss-loader": "^2.0.6",
     "precss": "^2.0.0",
@@ -32,12 +34,13 @@
     "style-loader": "^0.18.2",
     "url": "^0.11.0",
     "url-loader": "^0.5.9",
-    "webpack": "^2.6.1",
-    "webpack-dev-server": "^2.5.0",
-    "webpack-merge": "^4.1.0",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.6.0",
+    "webpack-merge": "^4.1.0"
   },
   "dependencies": {
     "axios": "^0.16.2",
+    "express": "^4.15.3",
     "lodash": "^4.17.4",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
