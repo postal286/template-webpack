@@ -104,7 +104,7 @@ const development = {
         hot: true
     },
 
-    devtool: "source-map"
+    devtool: "cheap-module-eval-source-map"
 
 };
 
